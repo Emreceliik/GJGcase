@@ -24,7 +24,7 @@ For a better understanding of the collapse/blast mechanics and overall gameplay,
 - **Lilly’s Garden**
 - **Pet Rescue Saga**
 <p align="center">
-![Project Image](https://github.com/Emreceliik/GJGcase/raw/main/Assets/Assets/Images/Telefon.png)
+[Project Image](https://github.com/Emreceliik/GJGcase/raw/main/Assets/Assets/Images/Telefon.png)
 </p>
 ### How to Play
 1. Select a group of same-colored blocks.
