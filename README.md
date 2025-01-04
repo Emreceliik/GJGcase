@@ -1,22 +1,37 @@
-# GJGcase
-The minimum number of same colored blocks to create a collapsible / blastable group is 2. 
-Total number of colors (K) in a game can be varied between 1 to 6, all colors should have a 
-different icon for easier recognition by the player. Board can have 2 to 10 rows (M) and 2 to 
-10 columns (N). Extra blocks needed to fill vacant areas should be created at the outside of 
-the board and drop from the top of the corresponding column.
-Additionally, we want players to find bigger groups easier, therefore we want to have different 
-icons on blocks based on the number of items in corresponding groups. In other words;
-● All the blocks in a group should display default icons by default, if not changed by the 
-following rules.
-● If the group has more blocks than first condition(A) it should display first icon,
-● If the group has more blocks than second condition(B) it should display second icon,
-● If the group has more blocks than the third condition(C) it should display the third 
-icon.
-Occasionally this mechanic can create a deadlock situation due to lack of any collapsible / 
-blastable group on the board. We want the game to detect these situations and implement 
-a shuffling solution which doesn’t rely on “blindly shuffle N times until deadlock is resolved”.
-You can find examples for the above definitions and rules at the end of the document.
-Finally for better understanding of the collapse/blast mechanic and gameplay, you can play 
-Toon Blast, Lilly’s Garden or Pet Rescue Saga games .
+# GJGcase - Game Concept and Mechanics
+
+## Overview
+In **GJGcase**, the goal is to collapse or blast groups of same-colored blocks. The minimum number of blocks required to form a collapsible or blastable group is **2**. The game offers a dynamic and engaging experience with different levels of complexity.
+
+### Game Features
+- **Number of Colors (K)**: The game can support between **1 and 6 different colors**, each color having a unique icon for easier recognition.
+- **Board Dimensions**: The game board can range from **2 to 10 rows (M)** and **2 to 10 columns (N)**.
+- **Filling Vacant Spaces**: Extra blocks to fill vacant areas are added from the top of the corresponding column.
+
+### Icon Representation Based on Group Size
+To help players identify larger groups, blocks will change their icons based on the group size:
+- **Default Icon**: All blocks in a group show the default icon.
+- **First Condition (A)**: If the group has more blocks than the minimum condition, it will display the **first icon**.
+- **Second Condition (B)**: Groups that exceed the second threshold will show the **second icon**.
+- **Third Condition (C)**: Groups that exceed the third threshold will show the **third icon**.
+
+### Handling Deadlock Situations
+Occasionally, the game might reach a **deadlock** where no collapsible or blastable group exists. Instead of relying on random shuffling, the game will implement a smart **shuffling solution** to resolve such situations without the need for repeated blind shuffling.
+
+### Similar Games for Reference
+For a better understanding of the collapse/blast mechanics and overall gameplay, you can check out the following games:
+- **Toon Blast**
+- **Lilly’s Garden**
+- **Pet Rescue Saga**
 
 ![Project Image](https://github.com/Emreceliik/GJGcase/raw/main/Assets/Assets/Images/Telefon.png)
+
+### How to Play
+1. Select a group of same-colored blocks.
+2. Collapse or blast them for points.
+3. Try to find larger groups for more rewards.
+4. Watch out for deadlock situations and let the game handle it!
+
+---
+
+By adding these rules and mechanics, we aim to create a unique and enjoyable experience for players while keeping the gameplay fresh and challenging. Stay tuned for more updates!
