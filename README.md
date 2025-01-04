@@ -34,4 +34,3 @@ For a better understanding of the collapse/blast mechanics and overall gameplay,
 
 ---
 
-By adding these rules and mechanics, we aim to create a unique and enjoyable experience for players while keeping the gameplay fresh and challenging. Stay tuned for more updates!
